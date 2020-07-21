@@ -21,4 +21,4 @@ arg7 = Name and location of the file that contains the covariance matrix employe
 
 Example: compilation of the attached files, in case they are located in the same folder as MCPostFit:
 
-python MCPosteriorFit_new.py Omegak.txt 28 60000 random 17 1000000 Omegak_cov.txt
+python MCPostFit.py Omegak.txt 28 60000 random 17 1000000 Omegak_cov.txt
