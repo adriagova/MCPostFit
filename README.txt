@@ -19,4 +19,6 @@ arg5 = Number of parameters employed to compute the cubic and quartic correction
 arg6 = Number of sampling points that the user want to generate in the "marginalization" MonteCarlo
 arg7 = Name and location of the file that contains the covariance matrix employed to perform the jumps in the "marginalization" MonteCarlo
 
+Example: compilation of the attached files, in case they are located in the same folder as MCPostFit:
 
+python MCPosteriorFit_new.py Omegak.txt 28 60000 random 17 1000000 Omegak_cov.txt
